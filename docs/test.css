@@ -1,0 +1,68 @@
+.menu{
+    padding: 30px;
+    background: #FFFFFF;
+    height: 100px;
+    width: 100%;
+    box-shadow: 10px 5px 5px black;
+    display: flex;
+    align-items: center;
+    
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+}
+.menu__ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+}
+
+.menu__link{
+    text-decoration: none;
+    color: black;
+    font-size: 16;
+    padding: 40px;
+}
+.first_name{
+    font-size: 16;
+    padding: 40px;
+    color: #05a88d;
+}
+.logo__ul {
+    width: 35%;
+    display: flex;
+    list-style-type: none;
+    justify-content: start;
+    align-items: center;
+}
+.menu__logo{
+    font-size: large;
+    color:#05a88d;
+    text-decoration:none;
+    display: flex;
+}
+.menu__login{
+    color:#05a88d;
+    font-size: 16px;
+    display: flex;
+    justify-content: start;
+    padding: 15px;
+    
+}
+.menu__signup{
+    /* margin: 5px; */
+    color:#05a88d;
+    font-size: 16px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+    border: 3px solid #05a88d;
+    border-radius: 3px;
+}
+.menu__buttons{
+    display: flex;
+    justify-content: start;
+    text-decoration: none;
+}
